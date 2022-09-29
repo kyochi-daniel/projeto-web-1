@@ -1,0 +1,85 @@
+:root {
+  --amarelo: #FF9900;
+  --cinza: #7D7987;
+  --cinza-claro: #ECEFF2;
+  --branco: #fff;
+  --preto: #000;
+  --fonte-titulo: 'Inter', sans-serif;
+  --fonte-texto: 'Open Sans', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*        HEADER        */
+.cabecalho {
+  text-align: center;
+  
+}
+
+.cabecalho-texto {
+  font-family: var(--fonte-titulo);
+  font-size: 49px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 56px;
+  margin-top: 72px;
+}
+
+.cabecalho span {
+ color: var(--amarelo);
+ font-weight: 700;
+}
+
+
+/*        MAIN        */
+.principal {
+  text-align: center;
+}
+
+.principal-texto {
+  font-family: var(--fonte-texto);
+  color: var(--cinza);
+  font-size: 14px;
+  line-height: 28px;
+  margin: 32px;
+}
+
+.principal span {
+  color: var(--amarelo);
+}
+
+/*        RODAPÉ       */
+
+.rodape {
+  width: 568px;
+  border-top: 1px solid var(--cinza-claro);
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.rodape a {
+  font-family: var(--fonte-texto);
+  font-size: 14px;
+  line-height: 28px;
+  margin: 8px;
+  color: var(--amarelo);
+}
+
+#bolas {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
