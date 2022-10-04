@@ -1,4 +1,4 @@
-# Projeto 01
+# Projeto 01 (Sem responsividade)
 
 ![preview](./.github/preview.png)
 
@@ -6,7 +6,7 @@
 
 Projeto construído no programa Explorer da Rocketseat 2022.
 
-[🔗 Clique aqui para acessar](https://kyochi7.github.io/Explorer/)
+[🔗 Clique aqui para acessar](https://kyochi7.github.io/projeto-web-1/)
 
 ## 🧰 Tecnologias
 
